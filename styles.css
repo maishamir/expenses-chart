@@ -1,0 +1,118 @@
+html {
+  background-color: hsl(27, 66%, 92%);
+  width: 1440px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+#card {
+  width: 32%;
+  height: 65vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top {
+  padding: 0 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(10, 79%, 65%);
+  position: absolute;
+  border-radius: 1em;
+  left: 0%;
+  right: 0%;
+}
+
+.bottom {
+  height: 50vh;
+  background-color: #fffcf6;
+  position: absolute;
+  top: 22%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  border-radius: 1em;
+}
+
+h5 {
+  font-weight: 400;
+  color: hsl(28, 10%, 53%);
+}
+
+h2 {
+  color: hsl(33, 100%, 98%);
+}
+
+#my-balance {
+  color: hsl(33, 100%, 98%);
+}
+
+#title {
+  color: black;
+  margin-left: 8%;
+  /* margin-bottom: 0; */
+}
+
+#graph {
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+hr {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: none;
+  height: 1px;
+  background-color: hsl(27, 66%, 92%);
+}
+
+#total {
+  font-size: 2.5em;
+  font-weight: bold;
+  display: inline;
+  margin-left: 8%;
+}
+
+.subtitle {
+  margin-left: 8%;
+  margin-top: 8%;
+  margin-bottom: 0;
+}
+
+.monthTotal {
+  width: 40%;
+  margin-top: 3%;
+}
+
+.prevMonthPercent {
+  width: 50%;
+  margin-right: 10px;
+  margin-bottom: 1%;
+  text-align: right;
+}
+
+#prevMonth {
+  margin: 0;
+}
+
+#monthTotalPercent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#my-balance {
+  margin-bottom: 8%;
+}
+#balance {
+  margin-top: 0px;
+}
