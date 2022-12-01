@@ -43,7 +43,8 @@ new Chart('expenses', {
                 }
             },
             
-        }
+        },
+        animation: false,
     }
 })
 
